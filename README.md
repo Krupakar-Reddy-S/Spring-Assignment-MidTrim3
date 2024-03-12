@@ -2,6 +2,8 @@
 
 #### This is a simple Proxy Server for a cart service implemented using the FakeStoreAPI.
 
+#### The code can be setup locally by cloning this repo and then opening the `ProductCart` folder in Intellij Ultimate or on VSCode with the Spring Extension Pack
+
 #### The Implemented Api is RESTful and has the following endpoints:
 
 1. **GET**/
@@ -43,3 +45,5 @@
     ![carts_delete](Assets/carts_delete.png)
 
 &nbsp;
+
+#### Tests can be written in the `src/test` directory and be run within the same Environment, else Postman can be used to test the API Enpoints individually.
